@@ -1,0 +1,19 @@
+package az.developia.nov30;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+
+public class Nov30GroupFXApplicationClass extends Application{
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage stage){
+		System.out.println(getClass().getResource(""));
+		// AnchorPane pane = FXMLLoader.load(getClass().getResource(STYLESHEET_CASPIAN)) 
+		
+	}
+}

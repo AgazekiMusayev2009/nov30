@@ -1,0 +1,19 @@
+package az.developia.nov30.imagehistoryapp.repository;
+
+import java.sql.Connection;
+
+import az.developia.nov30.imagehistoryapp.connection.JDBCConnection;
+import az.developia.nov30.imagehistoryapp.model.Image;
+
+public class ImageRepository {
+	
+	private Connection conn;
+	
+	public void insertImage(Image image) {
+		conn = JDBCConnection.connect();
+		
+		Statement statement = conn.createStatement();
+		
+		
+	}
+}

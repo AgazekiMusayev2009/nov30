@@ -1,0 +1,5 @@
+module Nov30GroupApplication {
+	requires javafx.controls;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}

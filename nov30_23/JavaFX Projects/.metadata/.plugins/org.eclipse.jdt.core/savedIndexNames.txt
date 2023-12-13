@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+C:\Users\Toshiba\Documents\nov30_20\JavaFX Projects\.metadata\.plugins\org.eclipse.jdt.core
+564617310.index
+1921083143.index
+1451916623.index
+3413725848.index
+1865797976.index

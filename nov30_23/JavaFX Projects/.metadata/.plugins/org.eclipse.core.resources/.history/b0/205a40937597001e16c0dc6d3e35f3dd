@@ -1,0 +1,9 @@
+package az.developia.nov30.imagehistoryapp.controller;
+
+import javafx.scene.image.ImageView;
+
+public class ImageHistoryController{
+
+	private ImageView appimage;
+	
+}

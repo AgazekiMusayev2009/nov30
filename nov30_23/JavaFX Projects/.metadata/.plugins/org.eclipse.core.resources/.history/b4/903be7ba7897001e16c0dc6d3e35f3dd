@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="623.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="appimage" fitHeight="190.0" fitWidth="390.0" layoutX="155.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/image.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="chooseImageButton" layoutX="266.0" layoutY="238.0" mnemonicParsing="false" onAction="#chooseImageButtonClicked" text="Choose Image" />
+   </children>
+</AnchorPane>

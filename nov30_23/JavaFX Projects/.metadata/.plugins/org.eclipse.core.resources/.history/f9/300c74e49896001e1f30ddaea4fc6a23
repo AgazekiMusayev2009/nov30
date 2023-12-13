@@ -1,0 +1,7 @@
+package az.developia.nov30;
+
+public class Nov30GroupFXApplicationClass {
+	public static void main(String[] args) {
+		System.out.println(15);
+	}
+}
